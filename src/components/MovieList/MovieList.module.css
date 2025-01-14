@@ -1,0 +1,23 @@
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  align-items: center;
+  padding: 15px;
+}
+
+.movieListPoster {
+  max-height: 250px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+a {
+  color: azure;
+}
+
+li {
+  background-color: #333;
+}

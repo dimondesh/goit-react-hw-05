@@ -1,0 +1,21 @@
+.reviewsList {
+  list-style: none;
+  padding: 0;
+}
+
+.reviewItem {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.reviewItem p {
+  margin: 0.5rem 0;
+}
+
+.reviewAuthor {
+  font-weight: bold;
+  color: #6200ea;
+}
