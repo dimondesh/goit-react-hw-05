@@ -24,14 +24,14 @@ function MovieDetailsPage() {
         src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
         alt={movie.title}
       />
-      <div className={styles.links}>
-        <Link to={`cast`} className={styles.link}>
+      <nav>
+        <Link to={`/movies/${movieId}/cast`} className={styles.link}>
           Cast
         </Link>
-        <Link to={`reviews`} className={styles.link}>
+        <Link to={`/movies/${movieId}/reviews`} className={styles.link}>
           Reviews
         </Link>
-      </div>
+      </nav>
       <Outlet />
     </div>
   );
